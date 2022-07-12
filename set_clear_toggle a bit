@@ -1,0 +1,8 @@
+#include<stdio.h>
+  2 int main()
+  3 {
+  4 int a=14;
+  5 printf("%d\n",a|(0x1<<3));
+  6 printf("%d\n",a&(~0x1<<4));
+  7 printf("%d\n",a^(0x1<<7));
+  8 }
