@@ -1,0 +1,6 @@
+#define size_of(x) ((char *)(&x+1) – (char *)&x)
+void main()
+{
+Short int x;
+Printf(“%d”,size_of(x));
+}
